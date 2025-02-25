@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu {
+    padding-right: 100px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.menu a:hover{
+background-color: red;
+border-radius: 5px;
+color: white;
+}
+
+.main{
+    background: url(image1.jpg);
+    height: 90vh;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-text h1{
+    font-size: 80px;
+    color: white;
+    font-weight: 300;
+}
+
+.main-text P{
+    color: white
+    
+}
+
+span{
+color: blue;
+font-size: 120px;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    padding: 8px;
+    color: white;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.main-text button:hover{
+    background-color: white;
+    color: blue;
+    transition: 1s ease-in-out;
+}
+.parent-container{
+    background-color: blue;
+    width:650px;
+    height: 300px;
+
+}
